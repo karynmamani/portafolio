@@ -9472,99 +9472,79 @@ a:hover {
 /*perfil*/
 /* line 121, views/_home.scss */
 .title {
+  text-align: center;
   font-size: 42px;
   padding: 36px;
-  color: black;
-  font-weight: 700;
+  color: #222;
+  font-weight: 500;
   font-family: Dosis, sans-serif;
   text-transform: uppercase;
   line-height: 1;
 }
 
-/* line 130, views/_home.scss */
+/* line 131, views/_home.scss */
 img.code {
   width: 23%;
 }
 
-/* line 133, views/_home.scss */
+/* line 134, views/_home.scss */
 .text-perfil {
   padding: 6% 22% 2%;
 }
 
-/* line 136, views/_home.scss */
+/* line 137, views/_home.scss */
 .photo {
   padding: 8%;
 }
 
-/* line 139, views/_home.scss */
+/* line 140, views/_home.scss */
 .photo img {
   width: 100%;
   height: 35%;
 }
 
 /*habilidades*/
-/* line 145, views/_home.scss */
+/* line 146, views/_home.scss */
 .c100 > span {
   color: #222;
 }
 
-/* line 148, views/_home.scss */
+/* line 149, views/_home.scss */
 .center {
   text-align: center;
-  color: #333;
+  font-size: 42px;
+  padding: 36px;
+  color: #222;
+  font-weight: 500;
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
 }
 
-/* line 152, views/_home.scss */
+/* line 160, views/_home.scss */
 .text-hability {
   text-align: center;
   padding: 6% 22%;
 }
 
-/* line 156, views/_home.scss */
+/* line 164, views/_home.scss */
 .caja1 {
   padding: 0 27%;
   height: 120px;
 }
 
-/* line 160, views/_home.scss */
+/* line 168, views/_home.scss */
 .hability {
   padding-bottom: 4%;
 }
 
-/*.log1{
-  width: 100%;
+/* line 172, views/_home.scss */
+.codi {
+  color: #989898;
+  font-size: 19px;
 }
-.log1 img {
-width: 52%;
-}
-.log1{
-	position:relative;
-}
-.porcent{
-	position: absolute;
-}
-.cien{
-  position: absolute;
-  top: -74px;
-  left: 35px;
-  width: 100%;
-  text-align: center;
-  line-height: 25px;
-  font-size: 21px;
 
-}
-.codi{
-  padding-left: 19%;
-  font-size: 16px;
-  color: #989898;
-  padding-top: 57%;
-}
-.codis{
-	padding-left: 7%;
-	font-size: 17px;
-  color: #989898;
-}*/
-/* line 196, views/_home.scss */
+/* line 176, views/_home.scss */
 .fondo {
   background-image: url("../img/porta1.jpg");
   width: 100%;
@@ -9575,50 +9555,60 @@ width: 52%;
 }
 
 /*competencias*/
-/* line 205, views/_home.scss */
+/* line 185, views/_home.scss */
 .competencias {
   margin: 3% auto;
 }
 
-/* line 208, views/_home.scss */
+/* line 188, views/_home.scss */
 .icon img {
   width: 50%;
 }
 
-/* line 211, views/_home.scss */
+/* line 191, views/_home.scss */
 .icon2 img {
   width: 28%;
 }
 
-/* line 214, views/_home.scss */
+/* line 194, views/_home.scss */
 .tex-center {
   text-align: center;
 }
 
-/* line 217, views/_home.scss */
-.text-compete {
-  text-align: center;
-  color: #333;
-  margin: 4% auto;
-}
-
+/*.text-compete{
+text-align: center;
+color: #333;
+margin: 4% auto;
+}*/
 /*portafolio*/
-/* line 223, views/_home.scss */
+/* line 203, views/_home.scss */
 .portafolio {
   margin-bottom: 6%;
 }
 
-/* line 226, views/_home.scss */
+/* line 206, views/_home.scss */
 .text-center.works {
   padding: 5% 0% 5% 0%;
 }
 
-/* line 229, views/_home.scss */
+/* line 209, views/_home.scss */
+.porta {
+  text-align: center;
+  font-size: 42px;
+  padding: 36px;
+  color: #222;
+  font-weight: 500;
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* line 219, views/_home.scss */
 .proyect {
   position: relative;
 }
 
-/* line 232, views/_home.scss */
+/* line 222, views/_home.scss */
 .overlay {
   width: 100%;
   height: 100%;
@@ -9628,7 +9618,7 @@ width: 52%;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* line 240, views/_home.scss */
+/* line 230, views/_home.scss */
 .overlay:hover {
   /*visibility: hidden;
   padding-top: 28%;
@@ -9638,12 +9628,12 @@ width: 52%;
   background-color: rgba(158, 50, 158, 0.5);
 }
 
-/* line 248, views/_home.scss */
+/* line 238, views/_home.scss */
 .overlay:hover .frase {
   visibility: visible;
 }
 
-/* line 251, views/_home.scss */
+/* line 241, views/_home.scss */
 .frase {
   width: 100%;
   position: absolute;
@@ -9660,47 +9650,47 @@ width: 52%;
 /*.contact{
   padding: 5% 10%;
 }*/
-/* line 267, views/_home.scss */
+/* line 257, views/_home.scss */
 .contact0 h3 {
   font-size: 15px;
 }
 
-/* line 270, views/_home.scss */
+/* line 260, views/_home.scss */
 .formu {
   padding: 0% 21% 3% 10%;
 }
 
-/* line 273, views/_home.scss */
+/* line 263, views/_home.scss */
 .text-center.form {
   margin: 0% 0% 5% 0%;
 }
 
-/* line 276, views/_home.scss */
+/* line 266, views/_home.scss */
 .container.formulario {
   margin-bottom: 6%;
   margin-top: 7%;
 }
 
-/* line 280, views/_home.scss */
+/* line 270, views/_home.scss */
 .btn-primary {
   color: #fff;
   background-color: #F11F52;
   border-color: #F11F52;
 }
 
-/* line 285, views/_home.scss */
+/* line 275, views/_home.scss */
 .formu h2 {
   text-align: center;
 }
 
 /*footer*/
-/* line 289, views/_home.scss */
+/* line 279, views/_home.scss */
 .footer {
   background-color: #222;
   z-index: 10px;
 }
 
-/* line 294, views/_home.scss */
+/* line 284, views/_home.scss */
 .datos-final {
   text-align: center;
   color: #fff;
@@ -9709,7 +9699,7 @@ width: 52%;
   padding-top: 12px;
 }
 
-/* line 302, views/_home.scss */
+/* line 292, views/_home.scss */
 .creadoras {
   text-align: center;
   padding-top: 10px;
@@ -9717,7 +9707,7 @@ width: 52%;
   border-top: 1px solid rgba(136, 136, 136, 0.26);
 }
 
-/* line 308, views/_home.scss */
+/* line 298, views/_home.scss */
 .creadoras a {
   color: #fff;
   text-decoration: none;

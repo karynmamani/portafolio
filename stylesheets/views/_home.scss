@@ -119,10 +119,11 @@ a:hover{
 }
 /*perfil*/
  .title{
+  text-align: center;
   font-size: 42px;
   padding: 36px;
-  color: rgb(0, 0, 0);
-  font-weight: 700;
+  color: #222;
+  font-weight: 500;
   font-family: Dosis, sans-serif;
   text-transform: uppercase;
   line-height: 1;
@@ -146,8 +147,15 @@ a:hover{
   color: #222;
 }
 .center{
-	text-align: center;
-	color: #333;
+  text-align: center;
+  font-size: 42px;
+  padding: 36px;
+  color: #222;
+  font-weight: 500;
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+
 }
 .text-hability{
 	text-align: center;
@@ -160,39 +168,11 @@ a:hover{
 .hability{
   padding-bottom: 4%;
 }
-/*.log1{
-  width: 100%;
-}
-.log1 img {
-width: 52%;
-}
-.log1{
-	position:relative;
-}
-.porcent{
-	position: absolute;
-}
-.cien{
-  position: absolute;
-  top: -74px;
-  left: 35px;
-  width: 100%;
-  text-align: center;
-  line-height: 25px;
-  font-size: 21px;
 
-}
 .codi{
-  padding-left: 19%;
-  font-size: 16px;
-  color: #989898;
-  padding-top: 57%;
+   color: #989898;
+  font-size: 19px;
 }
-.codis{
-	padding-left: 7%;
-	font-size: 17px;
-  color: #989898;
-}*/
 .fondo{
 background-image:url("../img/porta1.jpg");
 width:100%;
@@ -214,17 +194,27 @@ background-attachment: fixed;
 .tex-center{
 	text-align: center;
 }
-.text-compete{
+/*.text-compete{
 text-align: center;
 color: #333;
 margin: 4% auto;
-}
+}*/
 /*portafolio*/
 .portafolio{
   margin-bottom: 6%;
 }
 .text-center.works {
   padding: 5% 0% 5% 0%;
+}
+.porta{
+  text-align: center;
+  font-size: 42px;
+  padding: 36px;
+  color: #222;
+  font-weight: 500;
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
 }
 .proyect{
   position: relative;
