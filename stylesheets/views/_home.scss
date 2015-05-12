@@ -5,9 +5,14 @@
 	box-sizing: border-box;
 }
 
+body {
+  font-family: 'Muli';
+}
+
 .container-fluid{
 	padding:0;
 }
+
 .navbar-default{
 	background-color:transparent;
 	border-color:transparent;
@@ -77,11 +82,11 @@ color: rgba(245, 23, 120, 0.9);
   /*margin: 5px;*/
 }
 .text-home{
-text-align: center;
+  text-align: center;
   color: #fff;
   padding: 30% 37% 0% 37%;
 }
-.text-home p{
+.text-home p {
 	padding: 4%;
 }
 .intro{
@@ -120,12 +125,10 @@ a:hover{
 /*perfil*/
  .title{
   text-align: center;
-  font-size: 42px;
+  font-size: 38px;
   padding: 36px;
   color: #222;
   font-weight: 500;
-  font-family: Dosis, sans-serif;
-  text-transform: uppercase;
   line-height: 1;
  }
  img.code {
@@ -148,7 +151,7 @@ a:hover{
 }
 .center{
   text-align: center;
-  font-size: 42px;
+  font-size: 38px;
   padding: 36px;
   color: #222;
   font-weight: 500;
@@ -185,6 +188,13 @@ background-attachment: fixed;
 .competencias{
 	margin: 3% auto;
 }
+.text-compete{
+  text-align: center;
+  font-size: 38px;
+  padding: 36px;
+  color: #222;
+  line-height: 1;
+}
 .icon img {
 	width: 50%;
 }
@@ -194,11 +204,7 @@ background-attachment: fixed;
 .tex-center{
 	text-align: center;
 }
-/*.text-compete{
-text-align: center;
-color: #333;
-margin: 4% auto;
-}*/
+
 /*portafolio*/
 .portafolio{
   margin-bottom: 6%;
@@ -208,12 +214,9 @@ margin: 4% auto;
 }
 .porta{
   text-align: center;
-  font-size: 42px;
+  font-size: 38px;
   padding: 36px;
   color: #222;
-  font-weight: 500;
-  font-family: Dosis, sans-serif;
-  text-transform: uppercase;
   line-height: 1;
 }
 .proyect{
@@ -228,12 +231,9 @@ margin: 4% auto;
   background-color:  rgba(0, 0, 0, 0.2);
 }
 .overlay:hover{
-  /*visibility: hidden;
-  padding-top: 28%;
-  font-family: 'Dosis', sans-serif;
-  font-size: 2em;*/
-  /*background-color: rgba(0, 0, 0, 0.5);*/
   background-color: rgba(158, 50, 158, 0.5);
+  /*background-color: #F11F52;*/
+  /*background-color: #f52317;*/
 }
 .overlay:hover .frase{
   visibility: visible;
@@ -246,17 +246,7 @@ margin: 4% auto;
   color:#fff;
   visibility: hidden;
 }
-/*p {
-  margin: 0 0 20px;
-}*/
-/*contactame*/
-
-/*.contact{
-  padding: 5% 10%;
-}*/
-.contact0 h3 {
-  font-size:15px;
-}
+/*formulario*/
 .formu {
  padding: 0% 21% 3% 10%;
 }
@@ -275,6 +265,13 @@ margin: 4% auto;
   .formu h2{
   text-align :center;
   }
+  .contact{
+  text-align: center;
+  font-size: 38px;
+  padding: 36px;
+  color: #222;
+  line-height: 1;
+}
   /*footer*/
   .footer {
   background-color: #222;
@@ -288,7 +285,21 @@ margin: 4% auto;
   padding-bottom: 12px;
   padding-top: 12px;
   }
-
+/*redes*/
+ul.redes {
+  position: relative;
+  bottom: 133px;
+  left: -27%;
+  }
+  .redes li {
+  float: left;
+  top: 10%;
+  border-radius: 50%;
+  padding-right: 1%;
+}
+li img{
+  width: 20%;
+}
   .creadoras {
   text-align: center;
   padding-top: 10px;
