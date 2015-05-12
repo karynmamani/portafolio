@@ -12,8 +12,33 @@
 	text-align: center;
 }
 
+.p-0 {
+	padding: 0;
+}
+
+.pt-3 {
+	padding-top: 3px
+}
+
+.pt-14 {
+	padding-top: 14px
+}
+
+.pb-14 {
+	padding-bottom: 14px
+}
+
+
+.ptp-7 {
+	padding-top: 7%;
+}
+
 .ptp-14 {
 	padding-top: 14%;
+}
+
+.pbp-7 {
+	padding-bottom: 7%;
 }
 
 .mt-14 {
@@ -26,4 +51,16 @@
 
 .text-muted {
 	color: white;
+}
+
+.muli {
+	font-family: "Muli";
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.bg-gray-light {
+	background-color:rgba(189, 195, 199, 0.5);
 }

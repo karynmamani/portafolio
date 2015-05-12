@@ -9,10 +9,6 @@ body {
   font-family: 'Muli';
 }
 
-.container-fluid{
-	padding:0;
-}
-
 .navbar-default{
 	background-color:transparent;
 	border-color:transparent;
@@ -47,9 +43,11 @@ ul.nav.navbar-nav li a:hover{
   z-index: 9999999;
   top: 8px;
   left: 35px;
-  border: 1px solid #fff;
- 
+  border: 2px solid #fff;
+  font-family: "Muli";
+  font-weight: 400;
 }
+
 #logo-menu a:hover{
 color: rgba(245, 23, 120, 0.9);
 	background-color: #f5f5f5;
@@ -57,7 +55,8 @@ color: rgba(245, 23, 120, 0.9);
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-size: 16px;
+  font-size: rem(18px);
+  font-size: 18px;
 }
 .navbar-brand {
   padding: 4px 15px;
@@ -81,24 +80,19 @@ color: rgba(245, 23, 120, 0.9);
   border-color: #ddd;
   /*margin: 5px;*/
 }
-.text-home{
-  text-align: center;
-  color: #fff;
-  padding: 30% 37% 0% 37%;
-}
+
 .text-home p {
 	padding: 4%;
 }
+
 .intro{
-	&.container-fluid{
-		background-image:url(../img/foto-7.png);
-		height:100%;
-		background-repeat: no-repeat;
-		background-size:cover;
-        padding: 0px;
-        width: 100%;
-        position: relative;
-	}
+	background-image:url(../img/foto-7.png);
+	height:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+      /*padding: 0px;*/
+      /*width: 100%;*/
+      /*position: relative;*/
 }
 	/*scroll*/
 
@@ -123,6 +117,9 @@ a:hover{
 	text-decoration: none;
 }
 /*perfil*/
+  .perfil {
+    padding-bottom: 7%;
+  }
  .title{
   text-align: center;
   font-size: 38px;
@@ -135,28 +132,23 @@ a:hover{
   width: 23%;
 }
 .text-perfil{
-  padding: 6% 22% 2%;
+  /*padding: 6% 22% 2%;*/
 }
 .photo{
-	padding:8%;
+	/*padding:8%;*/
 }
 .photo img {
   width: 100%;
-  height: 35%;
+  /*height: 35%;*/
 }
 
 /*habilidades*/
-.c100 > span{
-  color: #222;
-}
 .center{
   text-align: center;
   font-size: 38px;
   padding: 36px;
   color: #222;
   font-weight: 500;
-  font-family: Dosis, sans-serif;
-  text-transform: uppercase;
   line-height: 1;
 
 }
@@ -185,9 +177,6 @@ background-repeat:no-repeat;
 background-attachment: fixed;
 } 
 /*competencias*/
-.competencias{
-	margin: 3% auto;
-}
 .text-compete{
   text-align: center;
   font-size: 38px;
@@ -199,7 +188,7 @@ background-attachment: fixed;
 	width: 50%;
 }
 .icon2 img {
-	width: 28%;
+	width: 87%;
 }
 .tex-center{
 	text-align: center;
@@ -207,10 +196,7 @@ background-attachment: fixed;
 
 /*portafolio*/
 .portafolio{
-  margin-bottom: 6%;
-}
-.text-center.works {
-  padding: 5% 0% 5% 0%;
+  margin-bottom: 3%;
 }
 .porta{
   text-align: center;
@@ -221,6 +207,15 @@ background-attachment: fixed;
 }
 .proyect{
   position: relative;
+  margin-bottom: 7px;
+  > img {
+    width: 100%;
+    overflow: hidden;
+    /*width: auto;*/
+    /*max-width: 400px;*/
+    height: 410px;
+    /*max-height: 200px;*/
+  }
 }
 .overlay {
   width: 100%;
@@ -246,32 +241,7 @@ background-attachment: fixed;
   color:#fff;
   visibility: hidden;
 }
-/*formulario*/
-.formu {
- padding: 0% 21% 3% 10%;
-}
-.text-center.form {
-  margin: 0% 0% 5% 0%;
-}
-.container.formulario {
-  margin-bottom: 6%;
-    margin-top: 7%;
-}
-.btn-primary {
-  color: #fff;
-  background-color: #F11F52;
-  border-color: #F11F52;
-  }
-  .formu h2{
-  text-align :center;
-  }
-  .contact{
-  text-align: center;
-  font-size: 38px;
-  padding: 36px;
-  color: #222;
-  line-height: 1;
-}
+
   /*footer*/
   .footer {
   background-color: #222;
@@ -286,28 +256,28 @@ background-attachment: fixed;
   padding-top: 12px;
   }
 /*redes*/
-ul.redes {
-  position: relative;
-  bottom: 133px;
-  left: -27%;
-  }
-  .redes li {
+
+  /*.rs li {
   float: left;
-  top: 10%;
-  border-radius: 50%;
-  padding-right: 1%;
-}
-li img{
-  width: 20%;
-}
-  .creadoras {
-  text-align: center;
-  padding-top: 10px;
-  font-size: 20px;
-  border-top: 1px solid rgba(136, 136, 136, 0.26);
- }
- .creadoras a{
-  color: #fff;
-  text-decoration: none;
- }
  
+}*/
+.redes-sociales {
+  /*display: inline-block;*/
+  padding: 0;
+  li {
+    display: inline-block;
+    list-decoration: none;
+    padding: 0 7px;
+    img {
+      width: 49px;
+    }
+  }
+} 
+
+.contact {
+  padding-bottom: 3%;
+}
+
+#contactame {
+  padding: 35px 0;
+}
