@@ -5692,12 +5692,6 @@ a:hover {
 img.code {
   width: 23%; }
 
-.text-perfil {
-  /*padding: 6% 22% 2%;*/ }
-
-.photo {
-  /*padding:8%;*/ }
-
 .photo img {
   width: 100%;
   /*height: 35%;*/ }
@@ -5773,55 +5767,6 @@ img.code {
     height: 410px;
     /*max-height: 200px;*/ }
 
-/*proyectos*/
-/*.contenedor-portafolio {
-  height: auto;
-  background-color:white;
-}
-
-.contenedor-img-portafolio {
-  margin: 0% 0% 2%;
-  position: relative;
-}
-
-.contenedor-img-portafolio h3 {
-  text-transform: uppercase;
-  color: black;
-  font-weight: 800;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  opacity: 0;
-  width: 80%;
-  margin:0 10%;
-  text-align: center;
-  font-size: 1.8em;
-}
-
-.contenedor-img-portafolio a {
-  width: 100%;
-  float: left;
-}
-
-.contenedor-img-portafolio{
-  img {
-    transition: .35s ease-in-out;
-    width: 100%;
-  }
-  h3 {
-    transition: .35s ease-in-out;
-  }
-}
-
-.contenedor-img-portafolio a:hover > img {
-  opacity: .3;
-}
-
-.contenedor-img-portafolio a:hover > h3 {
-  opacity: 1;
-  top: 43%;
-}
-*/
 /*fin*/
 .overlay {
   width: 100%;
