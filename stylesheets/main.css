@@ -5643,8 +5643,7 @@ ul.nav.navbar-nav li a:hover {
   position: fixed; }
 
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
-  /*margin: 5px;*/ }
+  border-color: #ddd; }
 
 .text-home p {
   padding: 4%; }
@@ -5653,10 +5652,7 @@ ul.nav.navbar-nav li a:hover {
   background-image: url(../img/foto-7.png);
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  /*padding: 0px;*/
-  /*width: 100%;*/
-  /*position: relative;*/ }
+  background-size: cover; }
 
 /*scroll*/
 .boton {
@@ -5693,8 +5689,7 @@ img.code {
   width: 23%; }
 
 .photo img {
-  width: 100%;
-  /*height: 35%;*/ }
+  width: 100%; }
 
 /*habilidades*/
 .center {
@@ -5746,8 +5741,119 @@ img.code {
   text-align: center; }
 
 /*portafolio*/
+/*.contenedor-img-portafolio {
+  margin: 0% 0% 2%;
+  position: relative;
+}
+
+.contenedor-img-portafolio h3 {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  opacity: 0;
+  width: 80%;
+  margin:0 10%;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.contenedor-img-portafolio a {
+  width: 100%;
+}
+
+.contenedor-img-portafolio{
+  img {
+    transition: .35s ease-in-out;
+    width: 100%;
+  }
+  h3 {
+    transition: .35s ease-in-out;
+  }
+}
+
+.contenedor-img-portafolio a:hover > img {
+  opacity: .3;
+}
+
+.contenedor-img-portafolio a:hover > h3 {
+  opacity: 1;
+  top: 43%;
+}
+*/
 .portafolio {
   margin-bottom: 3%; }
+
+.view {
+  width: 100%;
+  height: 408px;
+  margin: 10px;
+  float: left;
+  border: 5px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 0px 5px #aaa;
+  cursor: default; }
+
+.view .mask, .view .content {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  left: 123px; }
+
+.view img {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 408px; }
+
+.view a.info {
+  background: url(../img/link.png) center no-repeat;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px; }
+
+.effect img {
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: all 0.2s ease-in; }
+
+.effect .mask {
+  opacity: 0;
+  overflow: visible;
+  border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+  border-style: solid;
+  border-width: 150px;
+  width: 0;
+  height: 0;
+  transform: translateY(-125px);
+  transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out; }
+
+.effect a.info {
+  opacity: 0;
+  transform: translateY(-125px);
+  transition: transform 0.3s ease-in, opacity 0.1s ease-in-out; }
+
+.effect:hover img {
+  opacity: 0.7;
+  transform: scale(2, 2); }
+
+.effect:hover .mask {
+  opacity: 1;
+  transform: translateY(0px); }
+
+.effect:hover a.info {
+  opacity: 1;
+  transform: translateY(100px); }
 
 .porta {
   text-align: center;
@@ -5762,10 +5868,7 @@ img.code {
   .proyect > img {
     width: 100%;
     overflow: hidden;
-    /*width: auto;*/
-    /*max-width: 400px;*/
-    height: 410px;
-    /*max-height: 200px;*/ }
+    height: 410px; }
 
 /*fin*/
 .overlay {
@@ -5804,12 +5907,7 @@ img.code {
   padding-top: 12px; }
 
 /*redes*/
-  /*.rs li {
-  float: left;
- 
-}*/
 .redes-sociales {
-  /*display: inline-block;*/
   padding: 0; }
   .redes-sociales li {
     display: inline-block;
